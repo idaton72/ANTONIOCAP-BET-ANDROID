@@ -1,0 +1,14 @@
+{
+  "timezone": "Europe/Rome",
+  "headless": true,
+  "sources": [
+    {"id":"asianodds","name":"AsianOdds","url":"https://asianodds.com/en/next-games","enabled":true},
+    {"id":"asianbetsoccer","name":"AsianBetSoccer","url":"https://www.asianbetsoccer.com/nextgame.html","enabled":true},
+    {"id":"arbworld","name":"ArbWorld","url":"https://arbworld.net/it/dropping-odds/football/1x2","enabled":true},
+    {"id":"btfodds","name":"BTF Odds","url":"https://www.btfodds.com/soccer/football-odds-trends/dropping-odds,all,today,average,UO","enabled":true},
+    {"id":"oddstake","name":"Oddstake","url":"https://oddstake.com/odds/","enabled":true}
+  ],
+  "football_data_token": "",
+  "api_football_key": "",
+  "api_football_max_requests_per_run": 40
+}
