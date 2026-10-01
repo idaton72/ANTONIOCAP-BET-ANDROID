@@ -1,0 +1,17 @@
+ANTONIOCAP.BET ANDROID 0.6 - BUILD SENZA ANDROID STUDIO
+
+Metodo consigliato: GitHub Actions (non serve Android Studio sul PC).
+
+1. Crea un repository GitHub vuoto.
+2. Carica TUTTO il contenuto di questa cartella nel repository, inclusa .github.
+3. Apri la scheda Actions del repository.
+4. Seleziona "Build ANTONIOCAP.BET APK" e premi "Run workflow".
+5. A build conclusa apri il job e scarica l'artifact "ANTONIOCAP-BET-Android-0.6".
+6. Dentro l'artifact trovi app-debug.apk, installabile su Android abilitando l'installazione da questa fonte.
+
+IMPORTANTE
+- L'APK e' il client Android.
+- Per mantenere tutte le fonti Playwright/Chromium, il motore 3.8.6 deve essere in esecuzione sul PC/server.
+- Avvia server/run_server.bat su Windows oppure server/run_server.sh su Linux/macOS.
+- Telefono e server devono potersi raggiungere in rete; nell'app inserisci http://IP_DEL_PC:8765.
+- Le credenziali/API restano sul PC/server e non vanno inserite nell'APK.

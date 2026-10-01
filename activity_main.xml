@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="14dp" android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView android:text="ANTONIOCAP.BET" android:textStyle="bold" android:textSize="24sp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:text="Android • motore 3.8.6" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/server" android:hint="http://IP-DEL-SERVER:8765" android:inputType="textUri" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+<Button android:id="@+id/test" android:text="TEST SERVER" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+<Button android:id="@+id/load" android:text="CARICA TOP 50" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+</LinearLayout>
+<TextView android:id="@+id/status" android:text="Inserisci l'indirizzo del motore e prova la connessione." android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"><TextView android:id="@+id/results" android:textIsSelectable="true" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/></ScrollView>
+</LinearLayout>
